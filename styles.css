@@ -1,8 +1,9 @@
 body {
 	background: black;
+	font-family: "Comic Neue";
 }
 * {
-	border: 1px dashed red;
+	border: 0px dashed red;
 	min-height: 10px;
 }
 .postcard {
@@ -10,6 +11,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding-left: 5px;
 }
 .postcard-header {
 	display: flex;
@@ -19,6 +21,7 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	position: ;
 }
 .postcard-header h1 {
 	width: 350px;
@@ -44,5 +47,10 @@ input {
 }
 button {
 	background-color: lightgrey;
-	padding: black;
+	border: 2px solid;
+	border-color: black grey grey black;
+}
+button:hover {
+	border: 2px solid;
+	border-color: grey black black grey;
 }
